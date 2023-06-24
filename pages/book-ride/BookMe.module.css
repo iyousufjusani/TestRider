@@ -1,0 +1,44 @@
+.bookmeMainContainer {
+  height: 102vh;
+  clip-path: polygon(
+    100% 91%,
+    84% 94%,
+    62% 96%,
+    41% 96%,
+    19% 94%,
+    0 91%,
+    0 0,
+    100% 0
+  );
+  background-color: var(--clr-secondary);
+}
+.bookmeContainer {
+  position: relative;
+  height: 100vh;
+  clip-path: polygon(
+    100% 91%,
+    84% 94%,
+    62% 96%,
+    41% 96%,
+    19% 94%,
+    0 91%,
+    0 0,
+    100% 0
+  );
+}
+.bgMapBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.bookmeFormContainer {
+  background-color: white;
+  border-radius: 30px;
+  pointer-events: all;
+}
+
+.locationBox button:focus {
+  box-shadow: none;
+}

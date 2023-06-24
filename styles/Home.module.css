@@ -1,0 +1,310 @@
+.homeContainer {
+  height: 110vh;
+  clip-path: polygon(
+    100% 94%,
+    90% 97%,
+    74% 99%,
+    54% 98%,
+    34% 97%,
+    14% 94%,
+    0 91%,
+    0% 0%,
+    100% 0%
+  );
+}
+.homeBannerMainContainer {
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 108vh;
+  clip-path: polygon(
+    100% 94%,
+    90% 97%,
+    74% 99%,
+    54% 98%,
+    34% 97%,
+    14% 94%,
+    0 91%,
+    0% 0%,
+    100% 0%
+  );
+}
+.homeBannerMainContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.homeBannerContainer {
+  position: relative;
+  z-index: 999;
+  height: 90%;
+  padding-block: 30px;
+  display: flex;
+}
+.homeBannerContainer .row {
+  margin: auto;
+}
+.homeBannerDescriptionBox {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  max-width: 700px;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 0 60px;
+}
+.homeBannerDescriptionBox p {
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 1.3;
+  color: #fff;
+}
+.homeBannerDescriptionBox a {
+  font-weight: bolder;
+}
+.whyNavigoFeature {
+  max-width: 90%;
+}
+.whyNavigoFeature p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.requirementContainer {
+  background-color: #31343c;
+  position: relative;
+}
+.whyNavigoIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  max-width: 100px;
+  height: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px 60px;
+}
+.whyNavigoIconsBox {
+  position: relative;
+  float: right;
+  height: 100%;
+}
+.whyNavigoIcon {
+  position: relative;
+  height: 60px;
+  width: 60px;
+}
+
+.HomeFAQTopBox h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.HomeFAQTopheading {
+  width: fit-content;
+  margin: auto;
+}
+.HomeFAQTopheading h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  background-color: #31343c;
+  border-radius: 30px;
+  padding: 2px 15px;
+}
+
+.homeDownloadAppContainer {
+  background-color: #31343c;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  height: 400px;
+}
+.whyNavigoFeatureBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeDownloadAppBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 650px;
+}
+.mobileIconBox {
+  display: flex;
+}
+.HomeCarBox {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.HomeCarMainBox {
+  width: 300px;
+  margin: auto;
+}
+.HomeCarImgBox image {
+  background: transparent;
+}
+.homeSafetyImg {
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  height: 300px;
+}
+.HomeCarBox label {
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.HomeCarDetailBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+.carDetailsContainer {
+  width: 75% !important;
+}
+.HomeCarDetail p {
+  font-size: 16px;
+  font-weight: bolder;
+
+  color: #ffffff;
+}
+
+.HomeCarImgBox {
+  position: relative;
+  height: 80px;
+  width: 100px;
+}
+.homeDownloadAppBox h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.homeDownloadAppBox p {
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+.homeSafetyDetail h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.homeSafetyDetail p {
+  font-size: 16px;
+}
+.homeRiderDetail {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(0 0, 100% 30%, 100% 70%, 0% 100%);
+}
+.homeRiderDetail h1 {
+  font-size: 40px;
+  font-weight: bold;
+
+  color: #ffffff;
+}
+.homeRiderDetail div {
+  width: 50%;
+}
+.homeRiderImage {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  z-index: 9999;
+
+  transform: translateX(-60%);
+}
+
+.homeRiderImageBox {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 80%);
+}
+.carDetailsContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+@media screen and (max-width: 450px) {
+  .homeBannerDescriptionBox {
+    padding: 0 20px;
+  }
+  .carDetailsContainer {
+    width: 100%;
+  }
+  .homeRiderDetail div {
+    width: 100%;
+    text-align: center;
+    padding-block: 10px;
+  }
+  .HomeCarMainBox {
+    width: 100%;
+  }
+  .homeRiderDetail {
+    clip-path: none;
+  }
+  .homeRiderImage {
+    transform: translateX(0);
+  }
+  .homeRiderImageBox {
+    clip-path: none;
+  }
+  .homeBannerDescriptionBox p {
+    font-size: 40px;
+  }
+  .homeServiceDesc {
+    width: 100%;
+  }
+
+  .homeContainer {
+    clip-path: none;
+  }
+  .homeBannerMainContainer {
+    clip-path: none;
+  }
+  .whyNavigoFeature p {
+    font-size: 12px !important;
+  }
+  .whyNavigoFeature h2 {
+    font-size: 12px !important;
+    font-weight: bolder;
+  }
+  .whyNavigoIcon {
+    height: 80px;
+    width: 80px;
+  }
+  .HomeCarBox label {
+    font-size: 12px;
+  }
+  .HomeCarDetail p {
+    font-size: 12px;
+  }
+}

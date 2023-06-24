@@ -1,0 +1,74 @@
+.headerContainer {
+  position: relative;
+  z-index: 999;
+}
+.navigoLogoBox {
+  width: 130px;
+  height: 40px;
+  position: relative;
+}
+.navLinks a {
+  color: #ffffff !important;
+  position: relative;
+  margin-inline: 10px;
+  padding-block: 0px !important;
+  font-size: 16px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navLinks a.navBtn {
+  background-color: #ffffff;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 14px !important;
+  color: black !important;
+  transition: all 0.2s ease-in-out;
+}
+.navLinks a.navBtn::before {
+  display: none;
+}
+.navLinks a.navBtn:hover {
+  background-color: #6ababd !important;
+  color: #ffffff !important;
+}
+.navLinks a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #6ababd;
+  transition: all 0.3s ease-in-out;
+}
+.navLinks a:hover::before {
+  width: 100%;
+}
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userDropdown {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.userDropdown h1 {
+  font-size: 16px;
+  margin: 0 !important;
+  color: #ffffff;
+  font-weight: 400;
+  cursor: pointer;
+}
+.menuContainer {
+  border-radius: 30px;
+  padding-block: 10px;
+  width: 160px;
+}
+@media screen and (max-width: 415px) {
+  .navLinks a {
+    margin-inline: 0px;
+  }
+}
